@@ -1,0 +1,20 @@
+<!doctype html>
+{% extends "nav.html" %}
+{% block body %}
+
+<form method="post">
+  <div class="form-group">
+    <input style = "width: 150px" type="number" class="form-control" id="formGroupExampleInput" placeholder="value 1">
+    <input style = "width:150px" type="number" class="form-control" id="formGroupExampleInput2" placeholder="value 2">
+  </div>
+<label for="exampleFormControlSelect1">Operation</label>
+    <select style = "width:200px" class="form-control form-control-sm">
+        <option>Additon</option>
+        <option>Subtraction</option>
+        <option>Multiplication</option>
+        <option>Division</option>
+    </select>
+</form>
+
+{% endblock %}
+</html>
